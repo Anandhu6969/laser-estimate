@@ -1,0 +1,35 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+
+# Local data and sensitive files
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+
+# Generated builds
+build/
+dist/
+installer/*Setup.exe
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Bundled installer tools
+tools/InnoSetup/
